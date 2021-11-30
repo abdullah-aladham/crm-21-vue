@@ -13,7 +13,7 @@
 
 
 
-    <nav><h4 class="has-text-right">jj</h4></nav>
+    <nav><h4 class="has-text-right">services</h4></nav>
 <div class="container">
   <nav class="navbar w-75  text-black">
     <div class="container-fluid">
@@ -23,30 +23,24 @@
     
   </ul>
 </div><!--end of container fluid-->
-  <div class="m-end">
-  <form class="text-left">
-    <div class="form-group ">
-    <label class="m-right" for="Filter">Filter</label><br>
-    <input type="text" >
-    </div>
-  </form>
-</div>
+  
 </nav>
 
   <div class="row">
     <div class="col-2">
       <div class="card"  id="customers" >
-        <div class="card-title bg-primary text-white p-1"><h5>this is service</h5></div>
-        <DIV class="card-body">
+        <div class="card-title bg-primary text-white p-1"><h5>100 minutes calls for 1 month</h5></div>
+        <div class="card-body">
           
-          <div class="card-img" ><img src="#" id="customer-photo" style="height: 80px;width: 80px;">
-         <div class="card-text"></div>
+    
+         <div class="card-text text-break">you can call your family and friends for 100 minutes per month </div>
+         <span>30 ( &#8362; )/month</span>
           </div>
           
-        </DIV>
+        </div>
       </div>
     </div>
-  </div>
+  
 
  
 </div>

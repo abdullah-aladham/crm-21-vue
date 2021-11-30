@@ -13,8 +13,9 @@
 
 
 
-    <nav><h4 class="has-text-right">Customers</h4></nav>
 <div class="container">
+      <h4 class="display-6 text-center">Login</h4>
+
   <nav class="navbar w-75  text-black">
     <div class="container-fluid">
      
@@ -23,30 +24,20 @@
     
   </ul>
 </div><!--end of container fluid-->
-  <div class="m-end">
-  <form class="text-left">
+  <div class="m-auto">
+  <form>
     <div class="form-group ">
-    <label class="m-right" for="Filter">Filter</label><br>
-    <input type="text" >
+    <label class="m-right" for="username" >username</label><br>
+    <input  id="username" type="text" placeholder="enter username..." aria-describedby="inputGroup-sizing-default"></div>
+    <div class="form-group">
+    <label for="pass">password</label><br>
+    <input type="password" placeholder="enter password..." aria-describedby="inputGroup-sizing-default">
     </div>
   </form>
 </div>
 </nav>
 
-  <div class="row">
-    <div class="col-2">
-      <div class="card"  id="customers" >
-        <div class="card-title bg-primary text-white p-1"><h5>ss</h5></div>
-        <DIV class="card-body">
-          
-          <div class="card-img" ><img src="#" id="customer-photo" style="height: 80px;width: 80px;">
-         <div class="card-text text-end"><address>ss</address></div>
-          </div>
-          
-        </DIV>
-      </div>
-    </div>
-  </div>
+  
 
  
 </div>

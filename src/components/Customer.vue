@@ -7,13 +7,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-</head>
+  </head>
 
 
 
 
 
-    <nav><h4 class="has-text-right">Customers</h4></nav>
 <div class="container">
   <nav class="navbar w-75  text-black">
     <div class="container-fluid">
@@ -30,12 +29,12 @@
       <div class="card"  id="customers"  >
           <i></i>
         <div class="card-title bg-primary text-white p-1"><h5>Abdullah Aladham</h5></div>
-        <DIV class="card-body">
-          <div class="card-text">
-              <span>services :</span><p>bill for 1 month</p>
+        <div class="card-body">
+          <div class="card-text text-break">
+              <span>services :</span><p>100 minutes calls for 1 month</p>
           </div>
           
-        </DIV>
+        </div>
       </div>
    
 

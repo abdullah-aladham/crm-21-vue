@@ -1,12 +1,12 @@
 <template>
-<head> <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
-  <nav class="navbar w-75 bg-primary m-auto text-black">
+  <nav class="navbar  bg-primary  text-black">
     <div class="container-fluid">
      <div class="navbar-header ">
-        <router-link to="./app.vue" class="navbar-brand text-white col-1">CRM</router-link>
+        <a class="navbar-brand text-white col-1">CRM</a>
       </div>
   
   <ul class="nav navbar-nav list-group-horizontal jusitfy-left ">
@@ -16,17 +16,20 @@
     <li class=" nav-item"><router-link to="/components/login"  class="text-white p-2 nav-link">Login</router-link></li>
   </ul>
 <app-customer></app-customer>  
-  <form>
-    <div class="form-outline">
+  <form >
+    <div class="form-inline">
   <input type='search' placeholder="Search for a customer....." class="input-group-l" >
-  
-  <button class=" btn btn-transparent p-1"><i>Search</i></button>
+    
+   
+  <button class=" btn btn-outline-primary p-1"><i>Search</i></button>
     </div>
 </form>
 </div><!--end of container fluid-->
   </nav>
 <customer></customer>  
-
+<div id="space"></div>
+<services></services>
+<login></login>
 <footer>
   <span style="font-family:verdana"> made with love by Abdullah Azzam Aladham</span>
 </footer>
@@ -34,13 +37,15 @@
 
 <script>
 import customer from './components/Customer.vue'
-
+import login from './components/login.vue'
+import services from './components/services.vue'
 
 export default {
   name: 'App',
   components: {
-    'customer':customer,
-   
+ customer,
+ login,
+ services
   }
 }
 </script>
@@ -53,5 +58,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#space{
+  width: 100%;
+  height:500px;
+  background-color: rgb(8, 189, 90);
 }
 </style>
